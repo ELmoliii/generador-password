@@ -44,25 +44,18 @@ Si deseas ejecutar este proyecto localmente o contribuir:
    git clone https://github.com/ELmoliii/generador-password.git
    cd generador-password
 
-```
-    
-    2. **Instalar dependencias:**
-    ```bash
-    npm install
-    
-    ```
+1. **Instalar dependencias:**
+   ```bash
+   npm install
 
+1. ****Compilar TypeScript:
+   ```bash
+   # Opción A: Compilación única
+    npx tsc
+    
+    # Opción B: Modo observador (recompila al guardar cambios)
+    npx tsc -w
 
-  3. **Compilar TypeScript:**
-  El navegador no entiende TS, así que debemos compilarlo a JS.
-  ```bash
-  # Opción A: Compilación única
-  npx tsc
-  
-  # Opción B: Modo observador (recompila al guardar cambios)
-  npx tsc -w
-  
-  ```
 
 
 4. **Cargar en Chrome:**
