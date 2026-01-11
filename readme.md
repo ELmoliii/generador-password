@@ -1,5 +1,4 @@
 
-```markdown
 # 🔐 Generador de Contraseñas Seguro - Extensión de Chrome
 
 Una extensión de navegador ligera, rápida y privada diseñada para generar contraseñas criptográficamente seguras sin necesidad de conexión a internet. Construida con **TypeScript** y **HTML Semántico** siguiendo las mejores prácticas de seguridad y accesibilidad.
