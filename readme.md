@@ -1,4 +1,5 @@
 
+```markdown
 # 🔐 Generador de Contraseñas Seguro - Extensión de Chrome
 
 Una extensión de navegador ligera, rápida y privada diseñada para generar contraseñas criptográficamente seguras sin necesidad de conexión a internet. Construida con **TypeScript** y **HTML Semántico** siguiendo las mejores prácticas de seguridad y accesibilidad.
@@ -41,36 +42,41 @@ Si deseas ejecutar este proyecto localmente o contribuir:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/TU-USUARIO/generador-password.git](https://github.com/TU-USUARIO/generador-password.git)
+   git clone https://github.com/ELmoliii/generador-password.git
    cd generador-password
 
+```
 
 2. **Instalar dependencias:**
-   ```bash
-   npm install
+```bash
+npm install
+
+```
 
 
-1. **Compilar TypeScript:**
+3. **Compilar TypeScript:**
 El navegador no entiende TS, así que debemos compilarlo a JS.
-    ```bash
-    # Opción A: Compilación única
-    npx tsc
+```bash
+# Opción A: Compilación única
+npx tsc
 
-    # Opción B: Modo observador (recompila al guardar cambios)
-    npx tsc -w
+# Opción B: Modo observador (recompila al guardar cambios)
+npx tsc -w
 
-    ```
+```
 
 
-  1. **Cargar en Chrome:**
-   * Abre `chrome://extensions/` en tu navegador.
-   * Activa el **Modo de desarrollador** (interruptor en la esquina superior derecha).
-   * Haz clic en el botón **Cargar descomprimida** (Load unpacked).
-   * Selecciona la carpeta raíz del proyecto (`generador-password`).
+4. **Cargar en Chrome:**
+* Abre `chrome://extensions/` en tu navegador.
+* Activa el **Modo de desarrollador** (interruptor en la esquina superior derecha).
+* Haz clic en el botón **Cargar descomprimida** (Load unpacked).
+* Selecciona la carpeta raíz del proyecto (`generador-password`).
 
 
 
 ## 📂 Estructura del Proyecto
+
+```text
 .
 ├── src/
 │   ├── popup.ts             # Lógica de interacción con el DOM
@@ -83,6 +89,12 @@ El navegador no entiende TS, así que debemos compilarlo a JS.
 ├── package.json             # Dependencias npm
 └── tsconfig.json            # Configuración del compilador TS
 
+```
+
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT. Siéntete libre de usarlo, modificarlo y distribuirlo.
+
+```
+
+```
