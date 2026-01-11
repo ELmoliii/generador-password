@@ -87,6 +87,3 @@ Si deseas ejecutar este proyecto localmente o contribuir:
 
 Este proyecto está bajo la Licencia MIT. Siéntete libre de usarlo, modificarlo y distribuirlo.
 
-```
-
-```
