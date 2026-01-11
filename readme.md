@@ -71,7 +71,6 @@ El navegador no entiende TS, así que debemos compilarlo a JS.
 
 
 ## 📂 Estructura del Proyecto
-
 .
 ├── src/
 │   ├── popup.ts             # Lógica de interacción con el DOM
