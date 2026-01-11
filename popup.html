@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Generador de contraseñas seguras y aleatorias. Personaliza la longitud y caracteres para mejorar tu seguridad online.">
+  <title>Generador de Contraseñas Seguras Online</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="container">
+    
+    <h1>Generador de Contraseñas</h1>
+    
+    <section class="result-area" aria-label="Resultado de la contraseña">
+      <label for="passwordDisplay" class="visually-hidden">Contraseña generada</label>
+      <input type="text" id="passwordDisplay" readonly placeholder="Tu contraseña aquí..." aria-live="polite">
+      <button id="btnCopy" title="Copiar al portapapeles" aria-label="Copiar contraseña">📋</button>
+    </section>
+
+    <form class="settings" id="passwordForm" onsubmit="event.preventDefault();">
+      
+      <fieldset class="range-group">
+        <legend class="visually-hidden">Configuración de longitud</legend>
+        <label for="lengthRange">Longitud: <output id="lengthValue">16</output></label>
+        <input type="range" id="lengthRange" min="8" max="64" value="16">
+      </fieldset>
+
+      <fieldset class="checkbox-group">
+        <legend>Tipo de caracteres</legend>
+        <label><input type="checkbox" id="cbUppercase" checked> Mayúsculas (A-Z)</label>
+        <label><input type="checkbox" id="cbLowercase" checked> Minúsculas (a-z)</label>
+        <label><input type="checkbox" id="cbNumbers" checked> Números (0-9)</label>
+        <label><input type="checkbox" id="cbSymbols" checked> Símbolos (!@#)</label>
+        <label><input type="checkbox" id="cbAmbiguous"> Excluir ambiguos (l, I, 1...)</label>
+      </fieldset>
+
+      <button type="submit" id="btnGenerate" class="btn-primary">Generar Contraseña</button>
+    </form>
+  </main>
+
+  <script src="dist/popup.js" type="module"></script>
+</body>
+</html>

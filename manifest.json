@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Generador de Contraseñas Seguro",
+  "version": "1.0.0",
+  "description": "Genera contraseñas fuertes y seguras de forma instantánea.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Abrir Generador"
+  },
+  "permissions": [
+    "clipboardWrite"
+  ]
+}

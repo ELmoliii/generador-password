@@ -1,0 +1,13 @@
+{
+  "name": "generador-password",
+  "version": "1.0.0",
+  "description": "Generador seguro de contraseñas",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["password", "generator, security, password generator, password manager, password generator chrome extension"],
+  "author": "Molidev",
+  "license": "ISC"
+}
